@@ -47,7 +47,7 @@ for objectid in data['objectIDs']:
     
 print('>> total number of unique artists: {}, and works per artist: [{}] \n'.format(len(artist_dict), artist_dict))
 print('>> year accessioned: {} \n'.format(accessionYear_dict))
-print('>> only {} of total {} had gender recorded'.format(len(data['objectIDs']), len(gender_dict)))
+print('>> only {} of total {} had gender recorded'.format(len(gender_dict)), len(data['objectIDs']))
 print('>> gender info found: {} \n'.format(gender_dict))
 print(accessionYear_dict)
  
